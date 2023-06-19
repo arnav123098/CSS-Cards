@@ -2,7 +2,7 @@
 
 ## CSS Cards with source code and live demo
 
-[Live Preview](https://csscards1.netlify.app)
+## [Live Preview](https://csscards1.netlify.app)
 
 ## Author
 
