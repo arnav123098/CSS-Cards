@@ -1,10 +1,10 @@
 # CSS-Cards
 
-##CSS Cards with source code and live demo
+## CSS Cards with source code and live demo
 
 [Live Preview](https://csscards1.netlify.app)
 
-##Author
+## Author
 
 - [@arnav123098](https://www.github.com/arnav123098)
 
