@@ -1,0 +1,78 @@
+body{
+    background-color: lavender;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 25px;
+}
+
+.cards{
+    font-family: Poppins, sans-serif;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    padding: 40px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    transition-duration: 0.1s;
+}
+
+.cards:hover{
+    transform: scale(1.075);
+}
+
+.cards button{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(49, 46, 252);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    position: relative;
+    right: -150px;
+}
+
+.cards button:hover{
+    background-color: rgb(25, 21, 253);
+}
+
+.cards p{
+    text-align: left;
+    width: 225px;
+}
+
+.cards img, h3{
+    display: inline;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.cards img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    position: relative;
+    top: 25px;
+}
+
+#github img{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+#github img:hover{
+    transform: scale(1.025);
+}

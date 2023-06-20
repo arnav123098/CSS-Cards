@@ -1,0 +1,72 @@
+body{
+    font-family: Poppins, sans-serif;
+    background-color: lavender;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+
+.heading{
+    display: inline;
+    margin-left: 15px;
+}
+
+.back{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    font-size: 35px;
+    position: relative;
+    top: 15px;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.back:hover{
+    color: rgb(36, 36, 36);
+    background-color: rgb(209, 209, 209);
+}
+
+.back:active{
+    color: rgb(36, 36, 36);
+    background-color: rgb(50, 46, 252, 0.80);
+    transform: scale(1.05);
+}
+
+#rule{
+    width: 95%;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+p::selection, p strong::selection{
+    background-color: rgba(50, 46, 252, 0.80)
+}
+
+#source{
+    color: rgba(0, 0, 0, 0.788);
+    text-align: right;
+    margin-right: 25px;
+}
