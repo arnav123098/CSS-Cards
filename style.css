@@ -38,6 +38,7 @@ body{
     transition-duration: 0.1s;
     position: relative;
     right: -150px;
+    user-select: none;
 }
 
 .cards button:hover{
