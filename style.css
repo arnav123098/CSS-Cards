@@ -27,7 +27,7 @@ body{
 }
 
 #btn{
-    display: inline;
+    display: inline-block;
     font-family: Poppins, sans-serif;
     text-decoration: none;
     font-size: 80%;
