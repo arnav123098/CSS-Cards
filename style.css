@@ -30,7 +30,8 @@ body{
     display: block;
     font-family: Poppins, sans-serif;
     text-decoration: none;
-    font-size: 0.5rem;
+    font-size: 65%;
+    text-align: center;
     background-color: rgb(49, 46, 252);
     border: none;
     border-radius: 5px;
