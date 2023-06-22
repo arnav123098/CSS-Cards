@@ -27,10 +27,13 @@ body{
 }
 
 #btn{
-    display: inline-block;
+    display: block;
     font-family: Poppins, sans-serif;
     text-decoration: none;
     font-size: 80%;
+    box-sizing: border-box;
+    padding-left: ;
+    padding-right: ;
     text-align: center;
     background-color: rgb(49, 46, 252);
     border: none;
