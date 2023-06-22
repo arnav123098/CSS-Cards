@@ -26,7 +26,7 @@ body{
     transform: scale(1.075);
 }
 
-.cards button{
+#btn{
     font-family: Poppins, sans-serif;
     background-color: rgb(49, 46, 252);
     border: none;
@@ -40,7 +40,7 @@ body{
     right: -150px;
 }
 
-.cards button:hover{
+#btn:hover{
     background-color: rgb(25, 21, 253);
 }
 
