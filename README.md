@@ -1,5 +1,5 @@
 # CSS-Cards
-## CSS Cards with source code and live demo
+## CSS Cards simple project with source code and live demo
 
 ### [Live Preview](https://csscards1.netlify.app)
 
