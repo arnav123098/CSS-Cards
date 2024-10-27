@@ -1,85 +1,86 @@
-body{
+body {
     background-color: lavender;
 }
 
-.main{
+.main {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 25px;
 }
 
-.cards{
+.cards {
     font-family: Poppins, sans-serif;
-    height: 250px;
+    height: auto;
     width: 250px;
     background-color: white;
-    padding: 40px;
+    padding: 20px;
     border: none;
     border-radius: 25px;
     margin-bottom: 25px;
     margin-right: 25px;
     transition-duration: 0.1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.cards:hover{
+.cards:hover {
     transform: scale(1.075);
 }
 
-#btn{
-    display: block;
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Poppins, sans-serif;
     text-decoration: none;
-    font-size: 80%;
-    box-sizing: border-box;
-    padding-top: 2%;
-    padding-bottom: 10%;
+    font-size: 0.9em;
+    padding: 10px;
     text-align: center;
     background-color: rgb(49, 46, 252);
     border: none;
     border-radius: 5px;
-    height: 30px;
-    width: 90px;
+    height: auto;
     color: white;
     cursor: pointer;
     transition-duration: 0.1s;
-    position: relative;
-    right: -150px;
 }
 
-#btn:hover{
+#btn:hover {
     background-color: rgb(25, 21, 253);
 }
 
-.cards p{
+.cards p {
     text-align: left;
-    width: 225px;
+    width: 100%;
 }
 
-.cards img, h3{
-    display: inline;
+.cards img {
+    height: auto;
+    max-height: 50px;
+    width: auto;
     margin-bottom: 10px;
-    margin-top: -20px;
 }
 
-.cards img{
-    height: 50px;
-    width: 50px;
-    margin-right: 10px;
-    position: relative;
-    top: 25px;
+.cards h3 {
+    display: block;
+    margin-bottom: 10px;
 }
 
-#github img{
-    height: 50px;
-    width: 50px;
+#github {
     position: fixed;
     bottom: 25px;
     right: 25px;
+}
+
+#github img {
+    height: 50px;
+    width: 50px;
     cursor: pointer;
     transition-duration: 0.1s;
 }
 
-#github img:hover{
+#github img:hover {
     transform: scale(1.025);
 }
