@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Firebase</title>
+      <!--CSS Stylesheet-->
+      <link rel="stylesheet" href="subpages.css">
+      <!--Favicon-->
+      <link rel="icon" href="\images\firebase.png" type="image/x-icon">
+      <!--Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <a href="https://csscards1.netlify.app"><button class="back"><</button></a>
+        <img src="\images\firebase.png" alt="Firebase" class="logoimg">
+        <h1 class="heading">Firebase</h1>
+    </header>
+    <hr id="rule">
+    <main>
+      <p>
+        <strong>Firebase</strong> is a platform developed by Google for creating mobile and web applications. It provides a variety of tools and services to help developers build high-quality apps, including real-time databases, authentication services, cloud storage, and hosting solutions.
+
+Firebase enables developers to focus on building their applications without worrying about the underlying infrastructure. Its real-time database allows for seamless data synchronization across clients, making it ideal for applications that require real-time capabilities. Additionally, Firebase offers robust analytics tools to track user engagement and app performance.
+
+The platform supports various programming languages and frameworks, making it versatile for different development needs. Firebase also integrates well with other Google services, enhancing its functionality and ease of use for developers.
+
+Since its launch in 2011, Firebase has gained popularity among developers for its simplicity and powerful features. It is widely used in the industry for building scalable applications and is particularly favored for mobile app development.
+      </p>
+    </main>
+    <h4 id="source">SOURCE: WIKIPEDIA</h4>
+  </body>
+</html>
